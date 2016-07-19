@@ -43,7 +43,7 @@
     right:0;
     text-align:center;
     font-size:0;
-    animation:20s slider infinite;
+    animation:18s slider infinite;
 }
     
  
@@ -51,7 +51,7 @@
 
 body{
   text-align: center;
-  background-color:Gray;
+  background-color:LightCyan;
 }
 
  h1 {
