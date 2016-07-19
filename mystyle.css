@@ -1,0 +1,160 @@
+ @keyframes slider{
+
+0%{
+    left:0; 
+}
+20%{
+    left:0;
+}
+25%{
+    left:-100%;
+}
+45%{
+    left:-100%;
+}
+50%{
+    left:-200%;
+}
+70%{
+    left:-200%;
+}
+75%{
+    left:-300%;
+}
+95%{
+    left:-300%;
+}
+100%{
+    left:-400%;
+}
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider figure img{
+    width:10%;
+    float: left;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin:0;
+    right:0;
+    text-align:center;
+    font-size:0;
+    animation:20s slider infinite;
+}
+    
+ 
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body{
+  text-align: center;
+  background-color:Gray;
+}
+
+ h1 {
+   font-family:"Poiret One", cursive;
+   text-align: center;
+   font-size: 45pt;
+   
+ }
+
+#aboutMe{
+   font-family:"Poiret One", cursive;
+   text-align: center;
+   font-size: 17pt;
+   font-weight: 600;
+ }
+
+ 
+ h2{
+   font-family:"Poiret One", cursive;
+   font-size: 30pt;
+   text-align: center;
+ }
+
+#Scratch, #Python, #Pygame{
+   text-align: center;
+   background-color: white;
+   color: black;
+   text-decoration: none;
+   display: inline-block;
+   border: 3px solid grey;
+   padding: 10px 20px;
+   margin-left: 50px;
+   border-radius:
+
+}
+
+
+h3{
+
+  font-size: 23pt;
+  text-align: center;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid grey;
+  padding: 10px 20px;
+  margin-left: 50px;
+}
+h4{
+     font-size: 23pt;
+     text-align: center;
+     background-color: white;
+     color: black;
+     text-decoration: none;
+     display: inline-block;
+     border: 3px solid grey;
+     padding: 10px 20px;
+     margin-left: 50px;
+   }
+h5{
+
+     font-size: 23pt;
+     text-align: center;
+     background-color: white;
+     color: black;
+     text-decoration: none;
+     display: inline-block;
+     border: 3px solid grey;
+     padding: 10px 20px;
+     margin-left: 50px;
+   }
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ h6{
+   font-family:"Poiret One", cursive;
+
+   font-size: 30pt;
+ }
+
+h7{
+    font-family:"Poiret One", cursive;
+    text-align: center;
+    font-size: 30pt;
+  }
+
+h8{
+     font-family:"Poiret One", cursive;
+     text-align: center;
+     font-size: 30pt;
+   }
+
+
+h9{
+      font-family:"Poiret One", cursive;
+      text-align: center;
+      font-size: 30pt;
+    }
