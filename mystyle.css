@@ -78,6 +78,16 @@ h2{
    text-align: center;
  }
 
+h3{
+   font-family:"Poiret One", cursive;
+   font-size: 40pt;
+   text-align: center;
+   text-decoration:underline;
+   margin-bottom:0pt;
+   
+    
+}
+
 /*text inside buttons*/
 a{
   text-decoration:none;
@@ -114,9 +124,20 @@ a:Hover{
 }
 
 
-/*scratch tab*/
 
-.button2{
+
+
+
+
+
+
+
+
+
+
+/*SCRACTCH*/
+
+#paddleButton>a{
   text-decoration:none;
   font-family: "Poiret One", cursive;
   font-weight: 100;
@@ -124,26 +145,100 @@ a:Hover{
   color: black;
 }
 
-.button2{
+#paddleButton>a{
+  display:inline-block;
   border: 2px solid black;
   border-radius: 100px;
   background-color: LightCyan;
-  padding: 10px 80px;
+  padding: 3px 80px;
   transition-duration: 200ms
 }
 
-.button2{
+/* make it in center of screen*/
+#paddleButton>a{
   text-align: center;
-  margin-left:150px;
-  margin-bottom: 50px;
+  margin-left:450px;
+  margin-bottom:30px;
 }
-/*make it more aesthetically pleasing*/
 
-.button2:Hover{
+/*make it more aesthetically pleasing*/
+#paddleButton>a:Hover{
   background-color: DarkCyan;
   border: 2px solid white;
   color: White;
 }
 
 
+
+#pigButton>a. {
+  text-decoration:none;
+  font-family: "Poiret One", cursive;
+  font-weight: 100;
+  font-size: 25pt;
+  color: black;
 }
+
+#pigButton>a{
+  display:inline-block;
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: LightCyan;
+  padding: 5px 90px;
+  transition-duration: 200ms
+}
+    
+/* make it in center of screen*/
+#pigButton>a{
+  text-align: center;
+  margin-left:510px;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+/*make it more aesthetically pleasing*/
+#pigButton>a:Hover{
+  background-color: DarkCyan;
+  border: 2px solid white;
+  color: White;
+} 
+
+
+
+
+#jukeButton>a. {
+  text-decoration:none;
+  font-family: "Poiret One", cursive;
+  font-weight: 100;
+  font-size: 25pt;
+  color: black;
+}
+
+#jukeButton>a{
+  display:inline-block;
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: LightCyan;
+  padding: 3px 70px;
+  transition-duration: 200ms
+}
+    
+/* make it in center of screen*/
+#jukeButton>a{
+  text-align: center;
+  margin-left:470px;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+
+/*make it more aesthetically pleasing*/
+#jukeButton>a:Hover{
+  background-color: DarkCyan;
+  border: 2px solid white;
+  color: White;
+} 
+
+
+
+/*PYTHON*/
+
+
