@@ -1,7 +1,8 @@
- @keyframes slider{
+/*slider*/
+@keyframes slider{
 
 0%{
-    left:0; 
+    left:0;
 }
 20%{
     left:0;
@@ -45,20 +46,22 @@
     font-size:0;
     animation:18s slider infinite;
 }
-    
- 
+
+/*actual website*/
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 
 body{
   text-align: center;
   background-color:LightCyan;
 }
 
+/*header*/
  h1 {
    font-family:"Poiret One", cursive;
    text-align: center;
    font-size: 45pt;
-   
+
  }
 
 #aboutMe{
@@ -68,94 +71,79 @@ body{
    font-weight: 600;
  }
 
- 
- h2{
+/*summer creations*/
+h2{
    font-family:"Poiret One", cursive;
-   font-size: 30pt;
+   font-size: 45pt;
    text-align: center;
  }
 
-#Scratch, #Python, #Pygame{
-   text-align: center;
-   background-color: white;
-   color: black;
-   text-decoration: none;
-   display: inline-block;
-   border: 3px solid grey;
-   padding: 10px 20px;
-   margin-left: 50px;
-   border-radius:
-   
-
-}
-
-
-h3{
-
-  font-size: 23pt;
-  text-align: center;
-  background-color: white;
+/*text inside buttons*/
+a{
+  text-decoration:none;
+  font-family: "Poiret One", cursive;
+  font-weight: 100;
+  font-size: 25pt;
   color: black;
-  text-decoration: none;
-  display: inline-block;
-  border: 3px solid grey;
-  padding: 10px 20px;
-  margin-left: 50px;
 }
-h4{
-     font-size: 23pt;
-     text-align: center;
-     background-color: white;
-     color: black;
-     text-decoration: none;
-     display: inline-block;
-     border: 3px solid grey;
-     padding: 10px 20px;
-     margin-left: 50px;
-   }
-h5{
 
-     font-size: 23pt;
-     text-align: center;
-     background-color: white;
-     color: black;
-     text-decoration: none;
-     display: inline-block;
-     border: 3px solid grey;
-     padding: 10px 20px;
-     margin-left: 50px;
-   }
+/*make button aesthetically pleasing*/
+a{
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: LightCyan;
+  padding: 10px 80px;
+  transition-duration: 200ms
+}
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
- h6{
-   font-family:"Poiret One", cursive;
+/*space between buttons*/
+a{
+  text-align: center;
+  margin-left:150px;
+  margin-bottom: 50px;
+  float:left;
+}
 
-   font-size: 30pt;
- }
+/*make it more aesthetically pleasing*/
 
-h7{
-    font-family:"Poiret One", cursive;
-    text-align: center;
-    font-size: 30pt;
-  }
+a:Hover{
+  background-color: DarkCyan;
+  border: 2px solid white;
+  color: White;
 
-h8{
-     font-family:"Poiret One", cursive;
-     text-align: center;
-     font-size: 30pt;
-   }
+}
 
 
-h9{
-      font-family:"Poiret One", cursive;
-      text-align: center;
-      font-size: 30pt;
-    }
+/*scratch tab*/
+
+.button2{
+  text-decoration:none;
+  font-family: "Poiret One", cursive;
+  font-weight: 100;
+  font-size: 25pt;
+  color: black;
+}
+
+.button2{
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: LightCyan;
+  padding: 10px 80px;
+  transition-duration: 200ms
+}
+
+.button2{
+  text-align: center;
+  margin-left:150px;
+  margin-bottom: 50px;
+}
+/*make it more aesthetically pleasing*/
+
+.button2:Hover{
+  background-color: DarkCyan;
+  border: 2px solid white;
+  color: White;
+}
+
+
+}
