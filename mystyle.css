@@ -49,14 +49,76 @@
 
 /*actual website*/
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Caveat:700);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
 
 
-body{
+body>nav{
+  font-family: "Poiret One", cursive;
   text-align: center;
-  background-color:LightCyan;
 }
 
+body{
+  background-color:LightCyan;
+  text-align: center
+  font-family: "Poiret One", cursive;
+}
+/*navigation*/
+
+.main-nav .logo{
+  font-family: 'Amatic SC', cursive;
+  float:left;
+  height:40px;
+  padding:15px 30px;
+  font-size: 40px;
+  line-height: 40px;
+
+}
+
+.main-nav{
+  width:100%;
+  background-color: black;
+  height:70px;
+  color: white;
+}
+
+.main-nav>ul{
+  margin:0;
+  padding: 0;
+  float:left;
+  list-style-type: none;
+
+}
+.main-nav>ul>li{
+  float:left;
+}
+.nav-item{
+  display: inline-block;
+  padding:15px 20px;
+  height:40px;
+  line-height: 40px;
+  margin-left: 20px;
+  transition-duration: 200ms;
+
+
+}
+
+.nav-item:Hover{
+  background-color:grey;
+}
+
+.nav-option{
+  display: none;
+}
+
+
+
+
+
+
+
 /*header*/
+
  h1 {
    font-family:"Poiret One", cursive;
    text-align: center;
@@ -84,8 +146,8 @@ h3{
    text-align: center;
    text-decoration:underline;
    margin-bottom:0pt;
-   
-    
+
+
 }
 
 /*text inside buttons*/
@@ -122,6 +184,7 @@ a:Hover{
   color: White;
 
 }
+
 
 
 
@@ -186,7 +249,7 @@ a:Hover{
   padding: 5px 90px;
   transition-duration: 200ms
 }
-    
+
 /* make it in center of screen*/
 #pigButton>a{
   text-align: center;
@@ -200,7 +263,7 @@ a:Hover{
   background-color: DarkCyan;
   border: 2px solid white;
   color: White;
-} 
+}
 
 
 
@@ -221,7 +284,7 @@ a:Hover{
   padding: 3px 70px;
   transition-duration: 200ms
 }
-    
+
 /* make it in center of screen*/
 #jukeButton>a{
   text-align: center;
@@ -235,10 +298,8 @@ a:Hover{
   background-color: DarkCyan;
   border: 2px solid white;
   color: White;
-} 
+}
 
 
 
 /*PYTHON*/
-
-
